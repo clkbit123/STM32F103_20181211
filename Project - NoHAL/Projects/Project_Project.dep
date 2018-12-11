@@ -1,0 +1,224 @@
+Dependencies for Project 'Project', Target 'Project': (DO NOT MODIFY !)
+F (..\Drivers\STM32F1xx\Source\startup_stm32f103xe.s)(0x5BBCCA54)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Project-Id:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 525" --pd "STM32F10X_HD SETA 1"--list startup_stm32f103xe.lst --xref -o .\startup_stm32f103xe.o --depend .\startup_stm32f103xe.d)
+F (..\Drivers\STM32F1xx\Source\system_stm32f1xx.c)(0x5BBCCA54)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Applications\Inc -I ..\Drivers\STM32F1xx_HAL_Driver\Inc -I ..\Drivers\STM32F1xx\Include -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\RTOS -I ..\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Middlewares\FreeRTOS\Source\include -I ..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\Keil -I ..\Firmware\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Drivers\BSP\STM3210E_EVAL -I ..\Application\Inc --C99-I.\RTE\_Project-Id:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F103xE -DUSE_HAL_DRIVER_-o .\system_stm32f1xx.o --omf_browse .\system_stm32f1xx.crf --depend .\system_stm32f1xx.d)
+I (..\Drivers\STM32F1xx\Include\stm32f1xx.h)(0x5BBCCA54)
+I (..\Drivers\STM32F1xx\Include\stm32f103xe.h)(0x5BBCCA54)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x5BBCCA54)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBCCA54)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x5BBCCA54)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBCCA54)
+I (..\Drivers\STM32F1xx\Include\system_stm32f1xx.h)(0x5BBCCA54)
+F (..\Applications\Src\main.c)(0x5C0F959C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Applications\Inc -I ..\Drivers\STM32F1xx_HAL_Driver\Inc -I ..\Drivers\STM32F1xx\Include -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\RTOS -I ..\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Middlewares\FreeRTOS\Source\include -I ..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\Keil -I ..\Firmware\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Drivers\BSP\STM3210E_EVAL -I ..\Application\Inc --C99-I.\RTE\_Project-Id:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F103xE -DUSE_HAL_DRIVER_-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (..\Applications\Inc\main.h)(0x5C0F8874)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5A9D0E0C)
+I (..\Applications\Inc\stm32f1xx_hal_conf.h)(0x5C0F9832)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x5AA24D7F)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5A9D0E0C)
+I (..\Drivers\STM32F1xx\Include\stm32f1xx.h)(0x5BBCCA54)
+I (..\Drivers\STM32F1xx\Include\stm32f103xe.h)(0x5BBCCA54)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x5BBCCA54)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBCCA54)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x5BBCCA54)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBCCA54)
+I (..\Drivers\STM32F1xx\Include\system_stm32f1xx.h)(0x5BBCCA54)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5A9D0E75)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5A9D72D0)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5A9D72D0)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x5A9D0CB6)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x5A9D0CB6)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x5A9D0C97)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x5A9D0DDF)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x5A9D0DDF)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x5A9D2C19)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x5A9D0EC4)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x5A9D0EC4)
+I (..\Middlewares\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.h)(0x5C04E111)
+I (..\Middlewares\FreeRTOS\Source\include\FreeRTOS.h)(0x573F3A16)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\Applications\Inc\FreeRTOSConfig.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\projdefs.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\portable.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\deprecated_definitions.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\mpu_wrappers.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\task.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\list.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\timers.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\queue.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\semphr.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\event_groups.h)(0x573F3A16)
+F (..\Applications\Src\stm32f1xx_it.c)(0x5BBCCA54)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Applications\Inc -I ..\Drivers\STM32F1xx_HAL_Driver\Inc -I ..\Drivers\STM32F1xx\Include -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\RTOS -I ..\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Middlewares\FreeRTOS\Source\include -I ..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\Keil -I ..\Firmware\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Drivers\BSP\STM3210E_EVAL -I ..\Application\Inc --C99-I.\RTE\_Project-Id:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F103xE -DUSE_HAL_DRIVER_-o .\stm32f1xx_it.o --omf_browse .\stm32f1xx_it.crf --depend .\stm32f1xx_it.d)
+I (..\Applications\Inc\main.h)(0x5C0F8874)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x5A9D0E0C)
+I (..\Applications\Inc\stm32f1xx_hal_conf.h)(0x5C0F9832)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h)(0x5AA24D7F)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h)(0x5A9D0E0C)
+I (..\Drivers\STM32F1xx\Include\stm32f1xx.h)(0x5BBCCA54)
+I (..\Drivers\STM32F1xx\Include\stm32f103xe.h)(0x5BBCCA54)
+I (..\Drivers\CMSIS\Include\core_cm3.h)(0x5BBCCA54)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Drivers\CMSIS\Include\core_cmInstr.h)(0x5BBCCA54)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x5BBCCA54)
+I (..\Drivers\CMSIS\Include\core_cmFunc.h)(0x5BBCCA54)
+I (..\Drivers\STM32F1xx\Include\system_stm32f1xx.h)(0x5BBCCA54)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h)(0x5A9D0E75)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h)(0x5A9D72D0)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h)(0x5A9D72D0)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h)(0x5A9D0CB6)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h)(0x5A9D0CB6)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h)(0x5A9D0C97)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h)(0x5A9D0DDF)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x5A9D0DDF)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x5A9D2C19)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x5A9D0EC4)
+I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x5A9D0EC4)
+I (..\Applications\Inc\stm32f1xx_it.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.h)(0x5C04E111)
+I (..\Middlewares\FreeRTOS\Source\include\FreeRTOS.h)(0x573F3A16)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (..\Applications\Inc\FreeRTOSConfig.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\projdefs.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\portable.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\deprecated_definitions.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\mpu_wrappers.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\task.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\list.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\timers.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\queue.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\semphr.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\event_groups.h)(0x573F3A16)
+F (..\Middlewares\FreeRTOS\Source\croutine.c)(0x573F3A16)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Applications\Inc -I ..\Drivers\STM32F1xx_HAL_Driver\Inc -I ..\Drivers\STM32F1xx\Include -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\RTOS -I ..\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Middlewares\FreeRTOS\Source\include -I ..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\Keil -I ..\Firmware\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Drivers\BSP\STM3210E_EVAL -I ..\Application\Inc --C99-I.\RTE\_Project-Id:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F103xE -DUSE_HAL_DRIVER_-o .\croutine.o --omf_browse .\croutine.crf --depend .\croutine.d)
+I (..\Middlewares\FreeRTOS\Source\include\FreeRTOS.h)(0x573F3A16)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Applications\Inc\FreeRTOSConfig.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\projdefs.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\portable.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\deprecated_definitions.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\mpu_wrappers.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\task.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\list.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\croutine.h)(0x573F3A16)
+F (..\Middlewares\FreeRTOS\Source\event_groups.c)(0x573F3A16)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Applications\Inc -I ..\Drivers\STM32F1xx_HAL_Driver\Inc -I ..\Drivers\STM32F1xx\Include -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\RTOS -I ..\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Middlewares\FreeRTOS\Source\include -I ..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\Keil -I ..\Firmware\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Drivers\BSP\STM3210E_EVAL -I ..\Application\Inc --C99-I.\RTE\_Project-Id:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F103xE -DUSE_HAL_DRIVER_-o .\event_groups.o --omf_browse .\event_groups.crf --depend .\event_groups.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\Middlewares\FreeRTOS\Source\include\FreeRTOS.h)(0x573F3A16)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Applications\Inc\FreeRTOSConfig.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\projdefs.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\portable.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\deprecated_definitions.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\mpu_wrappers.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\task.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\list.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\timers.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\event_groups.h)(0x573F3A16)
+F (..\Middlewares\FreeRTOS\Source\list.c)(0x573F3A16)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Applications\Inc -I ..\Drivers\STM32F1xx_HAL_Driver\Inc -I ..\Drivers\STM32F1xx\Include -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\RTOS -I ..\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Middlewares\FreeRTOS\Source\include -I ..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\Keil -I ..\Firmware\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Drivers\BSP\STM3210E_EVAL -I ..\Application\Inc --C99-I.\RTE\_Project-Id:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F103xE -DUSE_HAL_DRIVER_-o .\list.o --omf_browse .\list.crf --depend .\list.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\Middlewares\FreeRTOS\Source\include\FreeRTOS.h)(0x573F3A16)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Applications\Inc\FreeRTOSConfig.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\projdefs.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\portable.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\deprecated_definitions.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\mpu_wrappers.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\list.h)(0x573F3A16)
+F (..\Middlewares\FreeRTOS\Source\queue.c)(0x573F3A17)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Applications\Inc -I ..\Drivers\STM32F1xx_HAL_Driver\Inc -I ..\Drivers\STM32F1xx\Include -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\RTOS -I ..\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Middlewares\FreeRTOS\Source\include -I ..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\Keil -I ..\Firmware\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Drivers\BSP\STM3210E_EVAL -I ..\Application\Inc --C99-I.\RTE\_Project-Id:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F103xE -DUSE_HAL_DRIVER_-o .\queue.o --omf_browse .\queue.crf --depend .\queue.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Middlewares\FreeRTOS\Source\include\FreeRTOS.h)(0x573F3A16)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Applications\Inc\FreeRTOSConfig.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\projdefs.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\portable.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\deprecated_definitions.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\mpu_wrappers.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\task.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\list.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\queue.h)(0x573F3A16)
+F (..\Middlewares\FreeRTOS\Source\tasks.c)(0x573F3A17)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Applications\Inc -I ..\Drivers\STM32F1xx_HAL_Driver\Inc -I ..\Drivers\STM32F1xx\Include -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\RTOS -I ..\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Middlewares\FreeRTOS\Source\include -I ..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\Keil -I ..\Firmware\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Drivers\BSP\STM3210E_EVAL -I ..\Application\Inc --C99-I.\RTE\_Project-Id:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F103xE -DUSE_HAL_DRIVER_-o .\tasks.o --omf_browse .\tasks.crf --depend .\tasks.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Middlewares\FreeRTOS\Source\include\FreeRTOS.h)(0x573F3A16)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Applications\Inc\FreeRTOSConfig.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\projdefs.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\portable.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\deprecated_definitions.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\mpu_wrappers.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\task.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\list.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\timers.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\StackMacros.h)(0x573F3A16)
+F (..\Middlewares\FreeRTOS\Source\timers.c)(0x573F3A17)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Applications\Inc -I ..\Drivers\STM32F1xx_HAL_Driver\Inc -I ..\Drivers\STM32F1xx\Include -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\RTOS -I ..\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Middlewares\FreeRTOS\Source\include -I ..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\Keil -I ..\Firmware\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Drivers\BSP\STM3210E_EVAL -I ..\Application\Inc --C99-I.\RTE\_Project-Id:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F103xE -DUSE_HAL_DRIVER_-o .\timers.o --omf_browse .\timers.crf --depend .\timers.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\Middlewares\FreeRTOS\Source\include\FreeRTOS.h)(0x573F3A16)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Applications\Inc\FreeRTOSConfig.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\projdefs.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\portable.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\deprecated_definitions.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\mpu_wrappers.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\task.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\list.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\queue.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\timers.h)(0x573F3A16)
+F (..\Middlewares\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.c)(0x5C028035)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Applications\Inc -I ..\Drivers\STM32F1xx_HAL_Driver\Inc -I ..\Drivers\STM32F1xx\Include -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\RTOS -I ..\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Middlewares\FreeRTOS\Source\include -I ..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\Keil -I ..\Firmware\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Drivers\BSP\STM3210E_EVAL -I ..\Application\Inc --C99-I.\RTE\_Project-Id:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F103xE -DUSE_HAL_DRIVER_-o .\cmsis_os.o --omf_browse .\cmsis_os.crf --depend .\cmsis_os.d)
+I (d:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\Middlewares\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.h)(0x5C04E111)
+I (..\Middlewares\FreeRTOS\Source\include\FreeRTOS.h)(0x573F3A16)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Applications\Inc\FreeRTOSConfig.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\projdefs.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\portable.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\deprecated_definitions.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\mpu_wrappers.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\task.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\list.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\timers.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\queue.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\semphr.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\event_groups.h)(0x573F3A16)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x5BBCCA54)
+F (..\Middlewares\FreeRTOS\Source\portable\MemMang\heap_4.c)(0x5C052C21)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Applications\Inc -I ..\Drivers\STM32F1xx_HAL_Driver\Inc -I ..\Drivers\STM32F1xx\Include -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\RTOS -I ..\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Middlewares\FreeRTOS\Source\include -I ..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\Keil -I ..\Firmware\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Drivers\BSP\STM3210E_EVAL -I ..\Application\Inc --C99-I.\RTE\_Project-Id:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F103xE -DUSE_HAL_DRIVER_-o .\heap_4.o --omf_browse .\heap_4.crf --depend .\heap_4.d)
+I (d:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\Middlewares\FreeRTOS\Source\include\FreeRTOS.h)(0x573F3A16)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Applications\Inc\FreeRTOSConfig.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\projdefs.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\portable.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\deprecated_definitions.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\mpu_wrappers.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\task.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\list.h)(0x573F3A16)
+F (..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3\port.c)(0x5C07D364)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Applications\Inc -I ..\Drivers\STM32F1xx_HAL_Driver\Inc -I ..\Drivers\STM32F1xx\Include -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\RTOS -I ..\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Middlewares\FreeRTOS\Source\include -I ..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\Keil -I ..\Firmware\Middlewares\FreeRTOS\Source\CMSIS_RTOS -I ..\Firmware\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3 -I ..\Firmware\Drivers\BSP\STM3210E_EVAL -I ..\Application\Inc --C99-I.\RTE\_Project-Id:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-Id:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_HD -DSTM32F103xE -DUSE_HAL_DRIVER_-o .\port.o --omf_browse .\port.crf --depend .\port.d)
+I (..\Middlewares\FreeRTOS\Source\include\FreeRTOS.h)(0x573F3A16)
+I (d:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\Applications\Inc\FreeRTOSConfig.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\projdefs.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\portable.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\deprecated_definitions.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\portable\RVDS\ARM_CM3\portmacro.h)(0x5BBCCA54)
+I (..\Middlewares\FreeRTOS\Source\include\mpu_wrappers.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\task.h)(0x573F3A16)
+I (..\Middlewares\FreeRTOS\Source\include\list.h)(0x573F3A16)
